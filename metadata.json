@@ -1,0 +1,6 @@
+{
+  "name": "TITAN CAR",
+  "description": "Location de véhicules récents et premium à Boufarik, Blida et livraison express 24/7 à l'Aéroport d'Alger Houari Boumediene. Flotte complète avec réservation en ligne et assistance WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

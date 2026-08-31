@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="100%" height="100%">
+  <defs>
+    <!-- Red Accent Gradient -->
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B3B" />
+      <stop offset="50%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </linearGradient>
+
+    <!-- Silver Light Facet -->
+    <linearGradient id="silverLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <!-- Silver Dark Facet -->
+    <linearGradient id="silverDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="60%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- Silver Text Gradient -->
+    <linearGradient id="silverText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <!-- Red Text Gradient -->
+    <linearGradient id="redText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="60%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+  </defs>
+
+  <!-- EMBLEM (CENTERED TOP) -->
+  <g id="titan-emblem" transform="translate(120, 10) scale(1)">
+    <!-- Top Red Inverted Trapezoid Accent -->
+    <path d="M 36 12 L 84 12 L 72 32 L 48 32 Z" fill="url(#redGradient)" />
+    <path d="M 38 14 L 82 14 L 73 28 L 47 28 Z" fill="#FF5252" opacity="0.3" />
+
+    <!-- Center T Stem - Left Bevel -->
+    <path d="M 52 34 L 60 34 L 60 98 L 54 80 Z" fill="url(#silverLight)" />
+    <!-- Center T Stem - Right Bevel -->
+    <path d="M 60 34 L 68 34 L 66 80 L 60 98 Z" fill="url(#silverDark)" />
+
+    <!-- Left Wing -->
+    <path d="M 12 20 L 46 32 L 44 40 L 22 32 Z" fill="url(#silverLight)" />
+    <path d="M 12 20 L 22 32 L 10 36 Z" fill="url(#silverDark)" />
+    <path d="M 10 36 L 22 32 L 44 40 L 48 76 L 60 104 L 54 104 L 38 72 L 18 50 Z" fill="url(#silverLight)" />
+    <path d="M 22 32 L 44 40 L 48 76 L 60 104 L 55 98 L 43 73 L 38 40 Z" fill="url(#silverDark)" opacity="0.5" />
+
+    <!-- Right Wing -->
+    <path d="M 108 20 L 74 32 L 76 40 L 98 32 Z" fill="url(#silverDark)" />
+    <path d="M 108 20 L 98 32 L 110 36 Z" fill="url(#silverLight)" />
+    <path d="M 110 36 L 98 32 L 76 40 L 72 76 L 60 104 L 66 104 L 82 72 L 102 50 Z" fill="url(#silverDark)" />
+    <path d="M 98 32 L 76 40 L 72 76 L 60 104 L 65 98 L 77 73 L 82 40 Z" fill="url(#silverLight)" opacity="0.4" />
+
+    <!-- Bottom Shield Tip -->
+    <path d="M 60 96 L 64 104 L 60 107 L 56 104 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- LOGO TEXT (CENTERED MIDDLE) -->
+  <g id="titan-brand-text" transform="translate(180, 160)" text-anchor="middle">
+    <!-- "TITAN CARS" -->
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="34">
+      <tspan fill="url(#silverText)" letter-spacing="2">TITAN </tspan>
+      <tspan fill="url(#redText)" letter-spacing="1.5">CARS</tspan>
+    </text>
+
+    <!-- Tagline Bar: Red Line Left, "DRIVE EXCELLENCE", Red Line Right -->
+    <g transform="translate(0, 24)">
+      <line x1="-155" y1="-4" x2="-100" y2="-4" stroke="url(#redGradient)" stroke-width="2" stroke-linecap="round" />
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Montserrat', sans-serif" font-weight="800" font-size="11" letter-spacing="4" fill="#E2E8F0">
+        DRIVE EXCELLENCE
+      </text>
+      <line x1="100" y1="-4" x2="155" y2="-4" stroke="url(#redGradient)" stroke-width="2" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
