@@ -102,7 +102,7 @@ export const INITIAL_RENTAL_BOOKINGS: RentalBooking[] = [
     companyId: "el_moussafir",
     vehicleId: "veh_em_01",
     vehicleTitle: "Volkswagen Golf 8 2.0 TDI DSG7 R-Line",
-    vehicleImage: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80",
+    vehicleImage: "/vehicles/golf8.jpg",
     customerName: "Karim Djebbar",
     phone: "0555123456",
     email: "karim.djebbar@gmail.com",
